@@ -1,0 +1,16 @@
+[package]
+name = "wgsl-validator"
+version = "0.1.0"
+authors = ["kbz_8 <contact@kbz8.me>"]
+edition = "2024"
+
+description = "Validate wgsl in rust or C/C++ projects"
+keywords = ["wgsl"]
+license = "MIT"
+#repository = "https://github.com/"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+naga = { version = "25.0.1", features = ["wgsl-in"] }
