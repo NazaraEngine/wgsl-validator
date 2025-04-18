@@ -2,3 +2,4 @@
 *.lock
 test/valid
 test/invalid
+compile_commands.json
