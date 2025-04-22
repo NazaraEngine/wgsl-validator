@@ -18,6 +18,7 @@ int main(void)
 	{
 		fprintf(stderr, "%s\n", error);
 		wgsl_validator_free_error(error);
+		wgsl_validator_destroy(validator);
 		return 1;
 	}
 	wgsl_validator_destroy(validator);
