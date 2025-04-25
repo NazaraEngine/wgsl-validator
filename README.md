@@ -1,4 +1,4 @@
-# WGSL Validator
+# WGSL Validator [![Build](https://github.com/NazaraEngine/wgsl-validator/actions/workflows/build.yml/badge.svg)](https://github.com/NazaraEngine/wgsl-validator/actions/workflows/build.yml)
 
 A simple WGSL validator in Rust over [naga](https://crates.io/crates/naga) with C bindings.
 
