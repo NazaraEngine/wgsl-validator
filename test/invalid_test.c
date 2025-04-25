@@ -19,9 +19,9 @@ int main(void)
 		fprintf(stderr, "%s\n", error);
 		wgsl_validator_free_error(error);
 		wgsl_validator_destroy(validator);
-		return 1;
+		return 0;
 	}
 	wgsl_validator_destroy(validator);
-	puts("Successfully parsed shader");
-	return 0;
+	fprintf(stderr, "Successfully parsed shader (Should not have happened)\n");
+	return 1;
 }

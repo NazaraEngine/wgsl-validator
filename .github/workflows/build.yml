@@ -32,3 +32,4 @@ jobs:
           cd test
           /usr/bin/bash build.sh
           ./valid
+          ./invalid
